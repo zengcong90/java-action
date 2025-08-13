@@ -1,6 +1,12 @@
 spring:
   application:
     name: java-action
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
+    mode: HTML5
+    suffix: .html
+    prefix: classpath:/templates/
 server:
   port: 8080
 
